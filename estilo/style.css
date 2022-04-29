@@ -23,35 +23,50 @@ header {
     text-align: center;
 }
 
-header, h1, h2 {
+header, h1 , h2 {
     padding: 30px;
     color: white;
     font-weight: bolder;
     font-variant: small-caps;
     text-align: center;
-    text-indent: 20px;
 
 }
 
-a:hover {
+h1#title {
+    font-size: 3em;
+}
+
+nav,a:hover {
     text-decoration: underline;
+    background-color: black;
 }
 
 nav {
     background-color: black;
+    border: 1px solid white;
     padding: 10px;
+    margin-bottom: 15px;
     text-align: center;
+    text-indent: 30px;
+    line-height: 40px;
     
 }
 
 nav > a {
+    margin: 30px;
     padding: 10px;
-    background-color: rgba(141, 13, 13, 0.339);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    background-color:rgba(141, 13, 13, 0.339);
     color: white;
+    text-align: center;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
-main {
+main{
     
     max-width: 800px;
     margin: auto;
