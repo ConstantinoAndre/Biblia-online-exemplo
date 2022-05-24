@@ -62,7 +62,7 @@ nav > a {
     background-color:rgba(141, 13, 13, 0.339);
     color: white;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     transition-duration: 0.5s;
 }
 
